@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  You usually keep this file minimal for React Native.
+  NativeWind uses Tailwind classes directly in components.
+*/
+
+/* Optional: custom reusable classes */
+@layer components {
+  .screen-padding {
+    @apply px-4 py-3;
+  }
+
+  .title-text {
+    @apply text-xl font-semibold text-gray-900;
+  }
+
+  .subtitle-text {
+    @apply text-sm text-gray-500;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm p-4;
+  }
+
+  .primary-button {
+    @apply bg-blue-600 py-3 rounded-lg items-center;
+  }
+
+  .primary-button-text {
+    @apply text-white font-semibold;
+  }
+}
