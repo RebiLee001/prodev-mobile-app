@@ -87,5 +87,4 @@ prodev-mobile-app-0x04/
 ## ▶️ Getting Started
 
 ### 1️⃣ Install dependencies
-```bash
-npm install
+
